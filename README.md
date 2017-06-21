@@ -1,4 +1,4 @@
-PostIt-Application
+		PostIt-Application
 
 Features
 
@@ -9,17 +9,20 @@ The Post-It Application is an application that allows the user to
 -retrieve messages
 
 Prerequisites
-This application is being buld an a laptop with windows10 
 
- To build this application you will need
--First, create a github repository with three directories(client, template and server)
--The template directories contain the UI templates for the application(note that no functionality has been added)
-	The template has features that allow the user to
-		*Sign Up
-		*Log In
-		*Post messages
-		*Retrieve/View messages
+Clone the repository and run npm install.
+To start app, navigate to the root directory of the app and run node run start:dev. This will fire up the app, with nodemon that watches the app for any changes and automatically restarts the app.
 
+Built With
 
+ExpressJs - The web framework used
+Sequelize - The ORM used
+Postgres - Database Used
+NPM - Dependency Management
 
--Second, set up the back-end 
+Versioning
+
+Git was used for versioning
+
+Author
+Delamazior Nyanyo
